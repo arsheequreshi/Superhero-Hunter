@@ -1,0 +1,54 @@
+body{
+    background: url('../Media/marv.jpg') no-repeat center top/cover;
+    font-family: Futura;
+    color: #ffffff;
+}
+
+a{
+    text-align: center;
+    margin-left: 49vw;
+    color: #ffffff;
+    padding: 4px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: all 1s;
+}
+
+a:hover{
+    background-color: red;
+}
+
+#container{
+    border: 2px solid black;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#container>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.4rem;
+}
+
+#container>div img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+#container>div span{
+    margin: 10px;
+}
+
+#container>div button{
+    margin: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}

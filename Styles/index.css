@@ -1,0 +1,119 @@
+body{
+    background: url('../Media/marv.jpg') no-repeat center top/cover;
+}
+
+#main-header{
+    margin: auto;
+    text-align: center;
+    width: 30vw;
+    font-size: 4rem;
+    font-family: Futura;
+    font-weight: lighter;
+    color: #ffffff;
+    font-family: Futura;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }}
+
+#search-box{
+    margin: auto;
+    margin-top: 10vh;
+    width: 50vw;
+}
+
+#search-bar{
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+    width: 93.5%;
+    height: 5vh;
+    font-size: 1.5rem;
+    font-family: Futura;
+    padding: 0px 30px;
+}
+
+#search-bar:focus{
+    outline:1px solid rgb(10, 119, 221);
+}
+
+#results{
+    margin: auto;
+    margin-top: 1px;
+    border-radius: 5px;
+    background-color: white;
+    height: 60vh;
+    overflow: scroll;
+}
+
+#results{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#results::-webkit-scrollbar { 
+    display: none;
+}
+
+#results>div{
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    margin: 1px 0px;
+    font-family: Helvetica;
+}
+
+#results>div span{
+    position: relative;
+    bottom: 40px;
+    font-size: 1.3rem;
+}
+
+#results>div img{
+    margin-left: 250px;
+    height: 90px;
+}
+
+.fa.fa-heart{
+    color: #B8B8B8;
+    font-size: 2rem;
+    position: relative;
+    top: -40px;
+    left: 250px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#favourites{
+    font-family: Futura;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    padding: 4px 20px;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.7);
+    transition: 1s all;
+}
+
+#favourites:hover{
+    background-color: rgb(255, 221, 221);
+    color: #000000;
+}
+
+.hidden{
+    display: none;
+}
+
+#fav{
+    color: red;
+}
+
